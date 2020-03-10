@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/papel"
+        android:layout_width="98dp"
+        android:layout_height="91dp"
+        android:layout_x="124dp"
+        android:layout_y="186dp"
+        app:srcCompat="@drawable/papel"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <ImageView
+        android:id="@+id/pedra"
+        android:layout_width="111dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="188dp"
+        android:layout_x="9dp"
+        android:layout_y="185dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pedra" />
+
+    <ImageView
+        android:id="@+id/escolhaJogo"
+        android:layout_width="124dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_x="103dp"
+        android:layout_y="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/padrao" />
+
+    <ImageView
+        android:id="@+id/tesoura"
+        android:layout_width="111dp"
+        android:layout_height="91dp"
+        android:layout_x="226dp"
+        android:layout_y="187dp"
+        app:srcCompat="@drawable/tesoura"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="21dp"
+        android:text="Escolha do Jogo"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="151dp"
+        android:text="Sua escolha"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="300dp"
+        android:text="Parabéns! Você ganhou!"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/imageViewVitorias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="351dp"
+        android:text="Vitórias: "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vitorias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="162dp"
+        android:layout_y="350dp"
+        android:text="0"
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/derrotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="388dp"
+        android:text="0"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/imageViewDerrotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="389dp"
+        android:text="Derrotas:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</AbsoluteLayout>
